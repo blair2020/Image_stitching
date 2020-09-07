@@ -4,16 +4,16 @@ from glob import glob
 import numpy as np
 
 # 小图片所在文件夹
-small_images_path = 'G:\\llx_test2\\'
+small_images_path = 'G:\\llx_test3\\'
 # 小图片的宽和高
 small_image_width = 512
 small_image_height = 512
 # 大图的宽高各有几个小图
-width_num = 6
-height_num = 3
+width_num = 10
+height_num = 10
 # 输出文件夹
-output_path = 'G:\\llx_test2_\\test.png'
-output_path_ = 'G:\\llx_test2_\\truth.png'
+output_path = 'G:\\llx_test3_\\test.png'
+output_path_ = 'G:\\llx_test3_\\truth.png'
 
 # 创建一个大图大小的零张量
 big_image = np.zeros((small_image_height*height_num, small_image_width*width_num, 3), np.uint8)

@@ -24,7 +24,7 @@ LLX_palette = [0, 0, 0, 120, 120, 120, 180, 120, 120, 6, 230, 230, 80, 50, 50, 4
 # colorized_mask.save('2.png')
 
 path = 'G:\\llx_dataset3\\annotations\\training\\'
-save_path = 'G:\\llx_test2\\'
+save_path = 'G:\\llx_test3\\'
 image_files = sorted(glob(save_path + '*.tif'))
 # image_files = sorted(glob(path + '59_*.tif'))
 print(len(image_files))
